@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaTimes, FaEnvelope, FaPhone } from 'react-icons/fa';
+import logoImg from '@/assets/logo.png'
 
 export const Footer = () => {
   return (
@@ -7,7 +8,7 @@ export const Footer = () => {
         
         {/* Logo */}
         <a href="#home" className="text-2xl font-bold tracking-tighter text-brand-orange">
-          <img src="/public/apple-touch-icon-Photoroom.png" alt="UBAID" className='m-h-[100px]' />
+          <img src={logoImg} alt="UBAID" className='m-h-[100px]' />
         </a>
 
         {/* Navigation Links */}

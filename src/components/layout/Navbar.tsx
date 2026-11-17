@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import logoImg from '@/assets/logo.png'
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -42,7 +43,7 @@ export const Navbar = () => {
         {/* ================= DESKTOP VIEW ================= */}
         <div className="hidden md:flex w-full items-center justify-between">
           <a href="#home" className="text-2xl font-bold tracking-wider text-brand-orange">
-            <img src="/public/apple-touch-icon-Photoroom.png" alt="UBAID" className='max-h-[100px]'/>
+            <img src={logoImg} alt="UBAID" className='max-h-[100px]'/>
           </a>
 
           <nav className="flex items-center gap-8">
@@ -106,7 +107,7 @@ export const Navbar = () => {
           {/* Center Logo */}
           <div className="flex justify-center">
             <a href="#home" className="text-xl font-bold tracking-wider text-brand-orange">
-              <img src="/public/apple-touch-icon-Photoroom.png" alt="UBAID" className='max-h-[100px]' />
+              <img src={logoImg} alt="UBAID" className='max-h-[100px]' />
             </a>
           </div>
 

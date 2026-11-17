@@ -58,12 +58,12 @@ export const Contact = () => {
       from_name: "Ubaidullah's Portfolio",
       subject: 'New Contact Message from Portfolio',
     },
-    onSuccess: (msg, data) => {
+    onSuccess: (msg) => {
       setResult({ success: true, message: msg });
       reset(); // Clear the form on success
       setTimeout(() => setResult(null), 5000); // Hide message after 5 seconds
     },
-    onError: (msg, data) => {
+    onError: (msg) => {
       setResult({ success: false, message: msg });
     },
   });
@@ -89,8 +89,7 @@ export const Contact = () => {
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             
             {/* Web3Forms Honeypot Spam Protection (Hidden) */}
-            <input type="checkbox" id="botcheck" className="hidden" style={{ display: 'none' }} {...register('botcheck')} />
-
+            <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               
               {/* Name */}

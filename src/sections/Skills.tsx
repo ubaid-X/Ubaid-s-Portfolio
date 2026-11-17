@@ -1,8 +1,7 @@
-import { motion, useMotionValue, useTransform, animate, useInView, color, percent } from 'motion/react';
+import { motion, useMotionValue, useTransform, animate, useInView } from 'motion/react';
 import { useEffect, useRef } from 'react';
 import { 
   SiHtml5, 
-  SiCss, 
   SiJavascript, 
   SiTailwindcss, 
   SiReact, 
@@ -28,8 +27,6 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { FaPercentage } from 'react-icons/fa';
-import { Icon } from 'lucide-react';
 
 const skillsData = [
   { name: 'HTML & CSS', percentage: 95, icon: <SiHtml5 size={28} />, color: '#E34F26' },

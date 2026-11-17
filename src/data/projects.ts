@@ -5,6 +5,16 @@ import weatherImg from '../assets/weather-app.png';
 import periodicImg from '../assets/periodic.png';
 import melodixImg from '../assets/melodix.png';
 
+
+export interface Project {
+  id: number;
+  title: string;
+  category: string;
+  image: string;
+  liveUrl: string;
+  githubUrl: string;
+}
+
 export const projects = [
     {
         id: 1,
