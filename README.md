@@ -9,7 +9,7 @@ Rather than using a pre-built template, I designed and coded this entirely from 
 
 ## 🌐 Live Demo
 
-Check out the live website here: **[https://ubaid-portfolio.vercel.app/](https://ubaid-portfolio.vercel.app/)** *(Replace with your actual Vercel URL)*
+Check out the live website here: **[https://ubaid-s-portfolio-omega.vercel.app](https://ubaid-s-portfolio-omega.vercel.app)** *(Replace with your actual Vercel URL)*
 
 ---
 
