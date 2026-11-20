@@ -53,7 +53,7 @@ export const Contact = () => {
   const [result, setResult] = useState<{ success: boolean; message: string } | null>(null);
 
   const { submit: onSubmit } = useWeb3Forms({
-    access_key: import.meta.env.VITE_WEB3FORMS_KEY || import.meta.env.VITE_WEB3FORMS_KEY2, // Use env variable
+    access_key: import.meta.env.VITE_WEB3FORMS_KEY || import.meta.env.VITE_WEB3FORMS_KEY2 || import.meta.env.VITE_WEB3FORMS_KEY3, 
     settings: {
       from_name: "Ubaidullah's Portfolio",
       subject: 'New Contact Message from Portfolio',
