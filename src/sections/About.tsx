@@ -46,7 +46,7 @@ export const About = () => {
             <div className="mt-4">
               <Button className="bg-brand-orange hover:bg-brand-orange/90 text-white cursor-pointer font-semibold rounded-md px-6 py-5 text-sm flex items-center gap-2">
                 <Download size={18} />
-                Download CV
+                <a href="" download='/public/UbaidUllah_Frontend_Developer_CV.pdf'>Download CV</a>
               </Button>
             </div>
           </div>

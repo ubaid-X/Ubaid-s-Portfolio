@@ -22,7 +22,7 @@ export const projects = [
         category: "Web App",
         image: landoraImg,
         liveUrl: "https://landora.infinityfree.io/frontend/public/index.html",
-        githubUrl: "https://github.com/ubaid-X", // Replace with exact repo if public
+        githubUrl: "https://github.com/ubaid-X/Landora",
     },
     {
         id: 2,
@@ -30,7 +30,7 @@ export const projects = [
         category: "UI/UX",
         image: gallerixImg,
         liveUrl: "https://gallerix.vercel.app/",
-        githubUrl: "https://github.com/ubaid-X",
+        githubUrl: "https://github.com/ubaid-X/Gallerix",
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ export const projects = [
         category: "API",
         image: cineSearchImg,
         liveUrl: "https://movie-searcher-delta-ten.vercel.app/",
-        githubUrl: "https://github.com/ubaid-X",
+        githubUrl: "https://github.com/ubaid-X/Movie-Searcher",
     },
     {
         id: 4,
@@ -46,7 +46,7 @@ export const projects = [
         category: "API",
         image: weatherImg,
         liveUrl: "https://weather-application-tau-silk.vercel.app/",
-        githubUrl: "https://github.com/ubaid-X",
+        githubUrl: "https://github.com/ubaid-X/Weather-Application",
     },
     {
         id: 5,
@@ -54,7 +54,7 @@ export const projects = [
         category: "UI/UX",
         image: periodicImg,
         liveUrl: "https://periodic-tablex.vercel.app/",
-        githubUrl: "https://github.com/ubaid-X",
+        githubUrl: "https://github.com/ubaid-X/Periodic-Table",
     },
     {
         id: 6,
@@ -62,7 +62,7 @@ export const projects = [
         category: "Web App",
         image: melodixImg,
         liveUrl: "https://melodix-alpha.vercel.app/",
-        githubUrl: "https://github.com/ubaid-X"
+        githubUrl: "https://github.com/ubaid-X/Melodix"
 
     }
 ];

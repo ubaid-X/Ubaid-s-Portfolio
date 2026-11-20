@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaTimes, FaKaggle } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
-import profileImg from '@/assets/profile.png'; // Adjust extension if it's .jpg
+import profileImg from '@/assets/profile.png';
 
 export const Hero = () => {
   return (
@@ -51,7 +51,7 @@ export const Hero = () => {
             </a>
             <a href="#">
             <Button variant="outline" className="border-white/20 text-white hover:bg-white/5 rounded-md px-8 py-5 text-sm cursor-pointer">
-              Download CV
+              <a href="" download="/public/UbaidUllah_Frontend_Developer_CV.pdf" >Download CV</a>
               </Button>
               </a>
           </div>

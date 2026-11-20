@@ -36,7 +36,7 @@ export const Footer = () => {
         {/* Contact Info */}
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-sm text-muted-foreground">
           <span className="flex items-center gap-2">
-            <FaEnvelope className="text-brand-orange" /> <a href="mailto:ai.business.student0@gmail.com" className='select-all'>ai.business.student0@gmail.com</a>
+            <FaEnvelope className="text-brand-orange" /> <a href="mailto:ubaidullah000089@gmail.com" className='select-all'>ubaidullah000089@gmail.com</a>
           </span>
           <span className="flex items-center gap-2">
             <FaPhone className="text-brand-orange" /> <a href='tel:+923466053334' className="hover:underline">+92 346 6053334</a>
